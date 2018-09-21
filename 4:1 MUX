@@ -1,0 +1,18 @@
+-------------------------Data Flow---------------------------
+library ieee;
+use lib ieee.std_logic_1164.all;
+
+entity 4_1M is 
+Port(a,b,c,d,s0,s1: in Std_logic;
+     y : out std_logic);
+end 4_1M;
+
+Architecture Dataflow of 4_1M is
+begin
+y<= a when (s1='0' and s0='0') else
+    b when (s1='0' and s0='1') else
+    c when (s1='1' and s0='0') else
+    d;
+end dataflow;
+
+------------------------Behavioural-------------------------------
