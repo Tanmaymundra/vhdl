@@ -1,6 +1,6 @@
 -------------------------Data Flow using When/else---------------------------
 library ieee;
-use lib ieee.std_logic_1164.all;
+use  ieee.std_logic_1164.all;
 
 entity 4_1M is 
 Port(a,b,c,d,s0,s1: in Std_logic;
@@ -18,7 +18,7 @@ end dataflow;
 ------------------------Data Flow using When/else(Array Selection)-------------------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use  ieee.std_logic_1164.all;
 
 entity 4_1M is 
 Port(a,b,c,d: in Std_logic;
@@ -37,7 +37,7 @@ end dataflow;
 ------------------------Data Flow using With/Select/When -------------------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use  ieee.std_logic_1164.all;
 
 entity 4_1M is 
 Port(a,b,c,d: in Std_logic;
@@ -57,7 +57,7 @@ end dataflow;
 ------------------Data Flow using s defined as a Integer----------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use  ieee.std_logic_1164.all;
 
 entity 4_1M is 
 Port(a,b,c,d: in Std_logic;
@@ -77,7 +77,7 @@ end dataflow;
 ---------------Data flow using when/else and s as a Integer-----------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use  ieee.std_logic_1164.all;
 
 entity 4_1M is 
 Port(a,b,c,d: in Std_logic;
