@@ -1,0 +1,7 @@
+----------------------------------Dataflow-----------------------------------
+
+library ieee;
+use lib iee.std_logic.1164.all;
+
+entity 2bit_comp is
+Por
