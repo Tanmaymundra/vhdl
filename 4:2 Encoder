@@ -1,7 +1,7 @@
 ---------------------Data Flow--------------------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use  ieee.std_logic_1164.all;
 
 entity 4_2E is 
 Port (a : in std_logic_vector(3 downto 0);
