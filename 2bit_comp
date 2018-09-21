@@ -1,9 +1,9 @@
 ----------------------------------Dataflow-----------------------------------
 
 library ieee;
-use lib ieee.std_logic.1164.all;
-use lib ieee.std_logic.arith.all;
-use lib ieee.std_logic.unsigned.all;
+use  ieee.std_logic.1164.all;
+use  ieee.std_logic.arith.all;
+use  ieee.std_logic.unsigned.all;
 
 entity 2bit_comp is
 Port(a,b:in Std_logic_vector(1 downto 0);
@@ -20,9 +20,9 @@ end dataflow;
 --------------------------------Behavioural----------------------------------
 
 library ieee;
-use lib ieee.std_logic.1164.all;
-use lib ieee.std_logic.arith.all;
-use lib ieee.std_logic.unsigned.all;
+use  ieee.std_logic.1164.all;
+use  ieee.std_logic.arith.all;
+use  ieee.std_logic.unsigned.all;
 
 entity 2bit_comp is
 Port(a,b:in Std_logic_vector(1 downto 0);
