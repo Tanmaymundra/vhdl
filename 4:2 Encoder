@@ -1,0 +1,21 @@
+---------------------Data Flow--------------------------------
+
+library ieee;
+use lib ieee.std_logic_1164.all;
+
+entity 4_2E is 
+Port (a : in std_logic_vector(3 downto 0);
+      y : out std_logic);
+end 4_2E;
+
+Architecture DataFlow of 4_2E is 
+begin
+y<="00" when a="0001" else
+   "01" when a="0010" else
+   "10" when a="0100" else
+   "11" when a="1000"
+   
+end dataflow;
+
+
+----------------------------------------------------------------
