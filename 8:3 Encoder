@@ -1,7 +1,7 @@
 -----------------------DataFlow Model using when/else---------------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use ieee.std_logic_1164.all;
 
 entity 8_3E is
 port( x: in std_logic_vector(7 downto 0);
@@ -26,7 +26,7 @@ end DataFlow;
 -----------------------DataFlow Model using with/select/when---------------------------
 
 library ieee;
-use lib ieee.std_logic_1164.all;
+use ieee.std_logic_1164.all;
 
 entity 8_3E is
 port( x: in std_logic_vector(7 downto 0);
