@@ -37,10 +37,10 @@ greater<= '0';
 lesser<='0';
 equal<='0';
 
-if a>b
-then greater <='1';
-elsif b>a
-then lesser<='1';
+if a>b then 
+greater <='1';
+elsif b>a then 
+lesser<='1'
 else 
 equal<='1';
 end if;
@@ -48,5 +48,3 @@ end process;
 end dataflow;
 
 ----------------------------------------Structural----------------------------------------------
-
---
