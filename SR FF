@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity of SRFF is 
-Port( S,R : in std_logic;
+Port( S,R,CLK : in std_logic;
       Q,Qb: out std_logic);
 end SRFF;
 
