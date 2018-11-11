@@ -11,7 +11,7 @@ Port (a,b:in Std_logic;
       greater,lesser,equal: out std_logic);
 end 1bit_comp;
 
-architecture dataflow of 2bit_comp is 
+architecture Beh of 2bit_comp is 
 begin
 process(a,b)
 begin
@@ -27,4 +27,23 @@ else
 equal<='1';
 end if;
 end process;
-end dataflow;
+end Beh;
+-----------------------------Data Flow------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+
+entity 1bit_comp is 
+Port (a,b:in Std_logic;
+      greater,lesser,equal: out std_logic);
+end 1bit_comp;
+
+Architecture DataFlow of 1bit_comp is
+begin
+greater<= a and (not b);
+lesser<= (not a ) and b;
+equal <= (a and b) or ((not a) and (not b));
+
+end Dataflow;
+
