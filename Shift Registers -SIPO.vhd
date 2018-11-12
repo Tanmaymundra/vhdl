@@ -2,7 +2,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity of SIPO is 
+entity SIPO is 
 Port(Din,CLK,Reset : in Std_logic;
     Q: inout std_logic_vector(2 downto 0));
 end SIPO;
