@@ -22,7 +22,7 @@ end if;
 end Process;
 end Behavioural;
 
---------------Structural--------------------
+--------------Structural--------------------(Active High)
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -43,8 +43,8 @@ Architecture Structural of SIPO is
  
   begin
      
-      D1: Portmap(Din,Clk,Reset,Q(0));
-      D2: Portmap(Q(0),Clk,Reset,Q(1));
-      D3: Portmap(Q(1),Clk,Reset,Q(2));
+      D1: Portmap(Din,Clk,'0',Q(0));
+      D2: Portmap(Q(0),Clk,'0',Q(1));
+      D3: Portmap(Q(1),Clk,'0',Q(2));
 
 end Structural;
