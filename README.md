@@ -24,3 +24,15 @@ Example List
   * [SIPO](https://github.com/Tanmaymundra/vhdl/blob/master/Shift%20Registers%20-SIPO.vhd)
 
 6. Flip Flops
+  * [T FF](https://github.com/Tanmaymundra/vhdl/blob/master/T%20FF)
+  * [D FF](https://github.com/Tanmaymundra/vhdl/blob/master/D%20FF)
+  * [SR FF](https://github.com/Tanmaymundra/vhdl/blob/master/SR%20FF)
+  * [JK FF](https://github.com/Tanmaymundra/vhdl/blob/master/JK%20FF)
+  
+7. Counters
+  * [Ring Counter(D FF)](https://github.com/Tanmaymundra/vhdl/blob/master/Ring%20Counter%20-%20D%20FF)
+  * [Synchronous- 4 Bit](https://github.com/Tanmaymundra/vhdl/blob/master/Synchronous%20Counter%20(4%20Bit))
+  * [Asyncronous 4 Bit Up](https://github.com/Tanmaymundra/vhdl/blob/master/Asynchronous%203bit%20up(JK%20FF))
+  
+8. Pattern
+  * [Sequence Detector](https://github.com/Tanmaymundra/vhdl/blob/master/seq_det)
