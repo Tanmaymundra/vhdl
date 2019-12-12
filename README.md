@@ -1,8 +1,8 @@
 # VHDL Example
 
 Example List
-* Comparators
- * [1 Bit Comparator](https://github.com/Tanmaymundra/vhdl/blob/master/1bit_comp)
+1. Comparators
+  * [1 Bit Comparator](https://github.com/Tanmaymundra/vhdl/blob/master/1bit_comp)
   * [2 Bit Comparator](https://github.com/Tanmaymundra/vhdl/blob/master/2bit_comp)
 
 2. Multiplexers
@@ -18,6 +18,9 @@ Example List
   * [Gray to Bcd](https://github.com/Tanmaymundra/vhdl/blob/master/Gray_BCD)
 
 5. Shift Registers
-  * []
+  * [PIPO](https://github.com/Tanmaymundra/vhdl/blob/master/Shift%20Registers%20-PIPO.vhd)
+  * [PISO](https://github.com/Tanmaymundra/vhdl/blob/master/Shift%20Registers%20-PISO.vhd)
+  * [SISO](https://github.com/Tanmaymundra/vhdl/blob/master/Shift%20Registers%20-SISO.vhd)
+  * [SIPO](https://github.com/Tanmaymundra/vhdl/blob/master/Shift%20Registers%20-SIPO.vhd)
 
 6. Flip Flops
